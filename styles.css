@@ -19,8 +19,8 @@ p {
 #bacKwall {
     width: 100%;
     position: fixed;
-    width: 100%;
-    min-height: 45%;
+    min-width: 45%;
+    min-height: 65;
     top: 0px;
     left: 0px;
     z-index: -100;
