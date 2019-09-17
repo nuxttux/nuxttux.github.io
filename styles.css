@@ -25,6 +25,6 @@ p {
     z-index: -100;
 }
 
-p .welcome {
+.welcome {
     color: #ffffff;
 }
