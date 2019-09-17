@@ -20,7 +20,7 @@ p {
     width: 100%;
     position: fixed;
     min-height: 45%;
-    min-width: 99%;
+    width: 100%;
     top: 0px;
     left: 0px;
     z-index: -100;
