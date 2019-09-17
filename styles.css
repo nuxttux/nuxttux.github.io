@@ -17,8 +17,8 @@ p {
 }
 
 #bacKwall {
-    height: 100%;
-    position: absolute;
+    width: 100%;
+    position: fixed;
     top: 0px;
     left: 0px;
     z-index: -100;
