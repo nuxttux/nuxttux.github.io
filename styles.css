@@ -15,3 +15,13 @@ p {
   margin: 50px auto;
   font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
 }
+
+#bacKwall {
+    width: 100%;
+    position: fixed;
+    min-height: 100%;
+    min-width: 999px;
+    top: 0px;
+    left: 0px;
+    z-index: -100;
+}
