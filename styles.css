@@ -19,7 +19,7 @@ p {
 #bacKwall {
     width: 100%;
     position: fixed;
-    min-height: 100%;
+    min-height: 45%;
     top: 0px;
     left: 0px;
     z-index: -100;
