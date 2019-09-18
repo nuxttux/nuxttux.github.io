@@ -1,25 +1,15 @@
 * {
-  margin:0px;
+  margin:0;
   padding:0px;
 }
 
-#octocat {
-  display: block;
-  width:384px;
-  margin: 50px auto;
-}
 
-p {
-  display: block;
-  width: 400px;
-  margin: 50px auto;
-  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
-}
+
 
 #bacKwall {
-    z-index: -1;
-    min-height: 100%;
-    min-width: 1024px;
+   z-index: -1;
+   min-height: 100%;
+	min-width: 1024px;
 	
   /* Set up proportionate scaling */
   width: 100%;
@@ -35,6 +25,71 @@ p {
   background-size: cover;
 }
 
-.welcome {
-    color: #ffffff;
+.nav {
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	margin-bottom: 300px;
+	padding: 15px;
+	text-align: center;
+	background-color: #fff;
+	font-family: roboto;
+	font-size: 16pt;
+}
+
+.nav > div {
+	background: #fff;
+	padding: 0;
+}
+
+/*body {
+	margin-top: 300px;
+}*/
+
+
+/*#octocat {
+  display: block;
+  width:384px;
+  margin: 50px auto;
+}
+*/
+p {
+  display: block;
+  width: 400px;
+  margin: 50px auto;
+  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono","monospace";
+}
+
+
+.wrapper {
+	display: grid;
+	#grid-template-columns:1fr 5fr 1fr;
+	padding: 0px;
+	margin-top: 500px;
+	grid-auto-rows: minmax(100px, auto);
+	background: #333;
+}
+
+.wrapper > div {
+	padding:.5em; 
+	text-align: center;
+	
+}
+
+.wrapper > div:nth-child(even){
+	background: #fff;
+}
+
+.about {
+	text-align: justify;
+	font-size: 13pt;
+	width: 500px;
+	min-height: 200px;
+	min-width: 10%;
+	font-family: Roboto, Open Sans;
+}
+
+.footer {
+	color: #fff;
+	margin-top: 45px;
 }
