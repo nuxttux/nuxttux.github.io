@@ -18,9 +18,19 @@ body {
 	height: 100%;
 }
 
+<<<<<<< HEAD
 /*
 .bacKwall {
   /* Set up proportionate scaling *//*
+=======
+.bacKwall {
+	padding: 70px 0;
+   z-index: -1;
+   min-height: 50%;
+	min-width: 400px;
+	
+  /* Set up proportionate scaling */
+>>>>>>> 6f7a34c987ecb1200adb9c397af8b0847360b2b2
   width: 100%;
   height: auto;
 	
@@ -65,6 +75,10 @@ p {
   display: block;
   width: 400px;
   margin: 20px auto 50px;
+<<<<<<< HEAD
+=======
+  #font: 30px "Monaco","Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono","monospace";
+>>>>>>> 6f7a34c987ecb1200adb9c397af8b0847360b2b2
 }
 
 .video {
@@ -120,9 +134,16 @@ p {
 /*GALLERY RULES*/
 
 .gallery {
+<<<<<<< HEAD
         margin-top: 10px;
 		min-height: 300px;
 		overflow: hidden;
+=======
+        margin-top: 15px;
+        min-height: 300px;
+		overflow: hidden;
+		background-color: #fff;
+>>>>>>> 6f7a34c987ecb1200adb9c397af8b0847360b2b2
     }
 
 .gallery img {
@@ -132,18 +153,28 @@ p {
 		transition: 1s;
 		filter: grayscale(50%);
     }
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> 6f7a34c987ecb1200adb9c397af8b0847360b2b2
 .gallery img:hover {
 		transform: scale(1.05);
 		filter: grayscale(0);
 }
 
 .desc {
+<<<<<<< HEAD
 		margin: 5px 0;
 		padding:25px 0;
         text-align: center;
 		font-family: Roboto;
 		background: #fff;
+=======
+		padding: 25px;
+        text-align: center;
+		font-family: Roboto;
+>>>>>>> 6f7a34c987ecb1200adb9c397af8b0847360b2b2
     }
     
     .responsive {
@@ -152,16 +183,23 @@ p {
         width: 33.33%;
     }
 
-    @media only screen and (max-width: 900px) {
+    @media only screen and (max-width: 800px) {
         .responsive {
             width: 50%;
             margin: 6px 0;
 		}
+<<<<<<< HEAD
 
 		body {
 			background-size:cover center fixed;
 			background-position-y: top 50px;
 			}
+=======
+		
+		.wrapper {
+			margin-top: 300px;
+		}
+>>>>>>> 6f7a34c987ecb1200adb9c397af8b0847360b2b2
                 
         .about {
 			text-align: justify;
@@ -180,10 +218,13 @@ p {
         .responsive {
             width: 100%;
 		}
+<<<<<<< HEAD
 		body {
 		background-size: contain;
 		background-position-y: top 60px;
 		}
+=======
+>>>>>>> 6f7a34c987ecb1200adb9c397af8b0847360b2b2
         
         .about {
 			text-align: justify;
@@ -197,6 +238,7 @@ p {
 	}
 
 		.video {
+			#padding: 1%;
 			width: 100%;
 			height: 100%;
 	}
