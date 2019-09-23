@@ -40,25 +40,9 @@ body {
 } 
 */
 
-.nav {
-	width: 100%;
-	position: fixed;
-	top: 0px;
-	padding: 15px;
-	background-color: #fff;
-	z-index: 50;
-}
-
-.nav div {
-	padding: 0;
-	font-size: 16pt;
-	font-family: Roboto;
-	text-align: center;
-}
-
 h1 {
-	padding-top: 20px;
-	font-family: Roboto Mono;
+	padding-top: 30px;
+	font-family: "Roboto Condensed", "Roboto";
 }
 
 p {
@@ -67,16 +51,18 @@ p {
   margin: 20px auto 50px;
 }
 
-.video {
-	width: 560px;
-	height: 315px;
+.videom {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
 }
 
 .wrapper {
 	display: grid;
 	padding: 0px;
 	width: 100%;
-	margin-top: 55px;
 	grid-auto-rows: minmax(250px, auto);
 	background: #333;
 	#grid-template-columns:1fr 5fr;
@@ -91,17 +77,13 @@ p {
 	background: #fff;
 }
 
-.videom {
-	padding: 0;
-}
-
 .about {
 	text-align: justify;
-	font-size: 15pt;
-	width: 550px;
+	font-size: 12pt;
+	width: 700px;
 	min-height: 150px;
-	font-family: "Roboto Condenced";
-	line-height: 20pt;
+	font-family: "Roboto Condensed", "Roboto";
+	line-height: 18pt;
 }
 
 
@@ -164,16 +146,9 @@ p {
 			}
                 
         .about {
-			text-align: justify;
 			width: 450px;
-			min-height: 150px;
 	}
-	
-			.video {
-				max-width: 480px;
-				width: 100%;
-				height: 100%;
-}
+
 		}
 
     @media only screen and (max-width: 500px) {
@@ -186,9 +161,8 @@ p {
 		}
         
         .about {
-			text-align: justify;
-			width: 75%;
-			min-height: 150px;
+			width: 70%;
+			text-align: left;
 	}
 
 		.video {
