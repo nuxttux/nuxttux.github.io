@@ -10,15 +10,35 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 	<meta https-equiv="Content-Type" content="text/html; charset=utf-8"/>
 	<link href="styles.css" rel="stylesheet" type="text/css">
+	<link href="menue.css" rel="stylesheet" type="text/css">
   <title>Nuxttux Animation Studio</title>
 </head>
 
 <body>
 
-<img id="bacKwall" src="images/backwall.jpeg" alt="nuxttux_artwork-illustration">
+<!--<img class="bacKwall" src="images/backwall.jpeg" alt="nuxttux_artwork-illustration">-->
+
 <!--<img src="https://octodex.github.com/images/daftpunktocat-thomas.gif" id="octocat" alt="octocat-gif" />-->
 
-<!-- Change this code here by copy and pasting your template on line 15 -->
+<!--HIDDEN MENUE-->
+<!--
+<div class="left_panel">
+	<input type="checkbox" id="sidebartoggler">
+	<label for="sidebartoggler" id="toggle">|||||</label>
+
+	<div id="navMenu">
+		<ul><strong><em>
+			<li><a href="#" >Home</a></li>
+			<li><a href="#" >Media</a></li>
+			<li><a href="#" >Gallery</a></li>
+			<li><a href="#" >About</a></li>
+			<li><a href="#" >Contact</a></li>
+			</em></strong>
+		</ul>
+	</div>
+</div>
+-->
+<!--HIDDEN MENUE-->
 
 	<div class="nav">
 		<div>
@@ -27,13 +47,17 @@
 	</div>
 
 	<div class="wrapper">
+
+
+
+
 	<!-- DIV One -->
-		<div>
-			<iframe class="video" src="https://www.youtube-nocookie.com/embed/0YGqbHzRvGA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<div id="welcome_video">
+			<video class="videom" preload="auto" loop autoplay src="./demoreel.mp4" style="width: 100%">
 		</div>
 	<!-- DIV Two -->
 		<div>
-		<h1>About</h1>
+		<h1>ABOUT</h1>
 		<p class="about">Founded out of love for story telling, creating engaging characters and open source.
 We love the kind of projects where we can explore and design cool stories. 
 We have the in house talent and capacity to develop concepts, write stories, direct and produce our own 2D & 3D animated series, commercials and most recently animated short films.</p>
@@ -42,28 +66,28 @@ We have the in house talent and capacity to develop concepts, write stories, dir
 		<div>
 			<div class="responsive">
     			<div class="gallery">
-       			 <a href="images/display_img/1.jpeg" target="_blank"><img src="images/display_img/1.jpeg" width="300" height="200"></a>
+					<a href="images/display_img/1.jpeg" target="_blank"><img src="images/display_img/1.jpeg" width="" height="200"></a>
        		 	<div class="desc">Image description and info here</div>
    			 </div>
 			</div>
 
 			<div class="responsive">
     			<div class="gallery">
-       			 <a href="images/display_img/2.jpeg" target="_blank"><img src="images/display_img/2.jpeg" width="300" height="200"></a>
+       			 <a href="images/display_img/2.jpeg" target="_blank"><img src="images/display_img/2.jpeg" width="" height="200"></a>
        		 	<div class="desc">Image description and info here</div>
    			 </div>
 			</div>
 			
 			<div class="responsive">
     			<div class="gallery">
-       			 <a href="images/display_img/3.jpeg" target="_blank"><img id="vert" src="images/display_img/3.jpeg" width="300" height="200"></a>
+       			 <a href="images/display_img/3.jpeg" target="_blank"><img class="vert" src="images/display_img/3.jpeg" width="300" height="200"></a>
        		 	<div class="desc">Image description and info here</div>
    			 </div>
 			</div>
 
 			<div class="responsive">
     			<div class="gallery">
-       			 <a href="images/display_img/1.jpeg" target="_blank"><img src="images/display_img/1.jpeg" width="300" height="200"></a>
+       			 <a href="images/display_img/1.jpeg" target="_blank"><img src="images/display_img/1.jpeg" width="" height="200"></a>
        			 <div class="desc">Image description and info here</div>
    			 </div>
 			</div>
@@ -83,7 +107,7 @@ We have the in house talent and capacity to develop concepts, write stories, dir
 			</div>
 			
 		</div>		
-		
+
 		<!-- DIV Three -->
 		<div class="footer">
 			<div class="foot">
