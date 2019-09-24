@@ -32,6 +32,10 @@ p {
   margin: 20px auto 50px;
 }
 
+#videoreel {
+	padding: 0;
+	margin: 0;
+}
 
 .videom {
 	top: 0;
@@ -42,11 +46,32 @@ p {
 	object-fit: cover;
 }
 
-
-.list, ul, li {
-	display: inline-block;
-	padding: 10px;
+.sticky  {
+	text-align: center;
+	z-index: 500;
+	top: 0px;
+	position: sticky;
+	background-color: rgb(255, 194, 84);
 }
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: rgb(255, 194, 84);
+  }
+
+li {
+	float: left;
+  }
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+  }
 
 a:link {
 	background-color: ;
@@ -68,16 +93,6 @@ a:link {
   a:active {
 	background-color: ;
   } 
-
-.sticky  {
-	text-align: center;
-	z-index: 500;
-	top: 0px;
-	position: sticky;
-	background-color: rgb(219, 153, 31);
-	height: 70px;
-
-}
 
 .wrapper {
 	display: grid;
