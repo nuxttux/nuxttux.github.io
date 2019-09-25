@@ -34,7 +34,7 @@ p {
 
 #videoreel {
 	padding: 0px;
-	margin: 0px 0px -5px;
+	margin: 0px 0px -2px;
 }
 
 .videom {
@@ -47,7 +47,7 @@ p {
 }
 
 .sticky  {
-	height: 79px;
+	#height: 79px;
 	text-align: center;
 	z-index: 200;
 	top: -1px;
@@ -57,7 +57,7 @@ p {
 .wordmark img {
 	width: 24mm;
 	height: auto;
-	margin: 15px 25px 15px;
+	margin: 15px 25px 10px;
 }
 
 .wordmark {
@@ -68,7 +68,6 @@ p {
 .wordmark, li {
 	float: left;
 }
-
 ul {
 	height: 100%;
 	z-index: 100;
@@ -88,7 +87,7 @@ li  a {
 	display: inline-block;
 	color: #111111;
 	text-align: center;
-	padding: 30px 20px;
+	padding: 30px 30px;
 	font-weight: bold;
   }
 
@@ -148,7 +147,7 @@ a:link {
 }
 
 #services {
-	padding: 18px 10px;
+	padding: 55px 0px 5px;
 	margin: 0;
 	min-height: 250px;
 }
@@ -235,6 +234,57 @@ a:link {
         .about {
 			width: 450px;
 			}
+
+		#aboutdiv {
+			padding: 35px 0px 5px;
+			}
+
+		.sticky  {
+			text-align: center;
+			z-index: 200;
+			top: -1px;
+			position: sticky;
+			}
+	
+		ul {
+			width: 100%;
+			height: auto;
+			z-index: 100;
+			list-style-type: none;
+			margin: 0px;
+			padding: 0px;
+			overflow: clip;
+			background-color: rgb(255, 194, 84);
+			  }
+			
+		li {
+			float: none;
+			display: inline-block;
+			background-color: rgb(255, 194, 84);
+			  }
+			
+		li  a {
+			color: #111111;
+			text-align: center;
+			padding: 17.4px 15px;
+			font-weight: bold;
+			  }
+
+		.wordmark img {
+			width: 15mm;
+			height: auto;
+			margin: 0px 15px 0px;
+			}
+
+		.wordmark {
+			display: inline-block;
+			float: left;
+			overflow: hidden;
+			padding: 10px 10px;
+				}
+		.wordmark:hover {
+				background-color: #321348;		
+			}
 		}
 
     @media only screen and (max-width: 500px) {
@@ -254,35 +304,6 @@ a:link {
 		#galdiv {
 			padding:0px;
 		}
-
-		.sticky  {
-			margin-bottom: 50px;
-		}
-
-		ul {
-			width: 100%;
-			height: auto;
-			z-index: 100;
-			list-style-type: none;
-			margin: 0px;
-			padding: 0px;
-			overflow: clip;
-			background-color: rgb(255, 194, 84);
-		  }
-		
-		li {
-			float: inline;
-			background-color: rgb(255, 194, 84);
-		  }
-		
-		li  a {
-			width: 100%;
-			display:;
-			color: #111111;
-			text-align: center;
-			padding: 10px 10px;
-			font-weight: bold;
-		  }
 
      }
      
