@@ -292,15 +292,18 @@ a:link {
 			text-align: center;
 			padding: 17.4px 15px;
 			font-weight: bold;
+			}
 
-			  }
+		ul li {
+			display: none;
+			}
 
-			  ul li {
-				  display: none;
-			  }
-
-			  ul:hover li, li a {
+		ul:hover li, li a {
 				display: inline-block;
+			}
+
+			ul:hover .wordmark {
+				display: none;
 			}
 
 		.wordmark img {
@@ -315,6 +318,7 @@ a:link {
 			overflow: hidden;
 			padding: 15px 10px;
 				}
+
 		.wordmark:hover {
 			background-color: #321348;		
 			}
