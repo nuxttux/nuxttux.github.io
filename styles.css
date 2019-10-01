@@ -4,7 +4,7 @@
   box-sizing: border-box;
   text-decoration: none;
   list-style-type: none;
-  font-family: "Roboto", "Roboto Condensed", "Open Sans", "Futura";
+  font-family: "Roboto", "Roboto Condensed", "Open Sans", "Futura", "Lato", "Arial";
 
 }
 
@@ -28,7 +28,6 @@ h1 {
 
 p {
   display: block;
-  width: 400px;
   margin: 20px auto 50px;
 }
 
@@ -148,15 +147,16 @@ a:link {
 }
 
 #services {
+	width: 100%;
 	padding: 55px 0px 40px;
 	margin: 0px;
 	min-height: 250px;
+	text-align: center;
 }
 
 #services p {
 	color: #fff;
 	font-family: "Roboto Condensed", "Roboto", "Open Sans";
-	text-align: left;
 }
 
 #services h1 {
