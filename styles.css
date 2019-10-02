@@ -10,11 +10,6 @@
   
   }
 
- /* #navtoggle, #m1, #m2, {
-	display: none;
-	position: fixed;
-}*/
-
 input {
 	display: none;
 	position: fixed;
