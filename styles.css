@@ -170,6 +170,7 @@ input {
   #services p {
 	  color: #fff;
 	  font-family: "Roboto Condensed", Roboto, "Open Sans", Futura, Lato, Arial, sans-serif;
+	  padding: 0 10%;
   }
   
   #services h1 {
@@ -190,6 +191,7 @@ input {
 	  color: #FFC254;
 	  font-family: "Roboto Mono", "Roboto Condensed", "Open Sans", Futura, Lato, Arial, sans-serif;
 	  margin: 10px 0px 10px;
+	  padding: 0 10%;
   }
   
   .footer {
