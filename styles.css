@@ -200,12 +200,25 @@ input {
   }
   
   .foot {
-	  color: #333;
+	  color: #a9a297;
 	  padding: 45px;
 	  font-size: 12pt;
 	  position: relative;
   }
-  
+
+  /*SOCIAL_LINKS*/
+
+  #social_links {
+	padding: 3%;
+	width: 100%;
+	background-color: #FFC254;
+  }
+
+  #social_links a {
+	margin: 0 2%;
+	display: inline-block;
+}
+
   /*GALLERY RULES*/
   
 	  .gallery {
