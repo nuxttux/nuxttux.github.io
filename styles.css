@@ -1,17 +1,15 @@
+@charset "utf-8"
+
 * {
 	margin:0;
 	padding:0px;
 	box-sizing: border-box;
 	text-decoration: none;
 	list-style-type: none;
-	font-family: "Roboto", "Roboto Condensed", "Open Sans", "Futura", "Lato", "Arial";
+	font-family: Roboto, "Roboto Condensed", "Open Sans", Futura, Lato, Arial;
   
   }
 
- /* #navtoggle, #m1, #m2, {
-	display: none;
-	position: fixed;
-}*/
 
 input {
 	display: none;
@@ -156,7 +154,7 @@ input {
 	  text-align: justify;
 	  font-size: 12pt;
 	  width: 770px;
-	  font-family: "Roboto Condensed", "Roboto", "Open Sans", "Futura", "Lato", "Arial";
+	  font-family: "Roboto Condensed", Roboto, "Open Sans", Futura, Lato, Arial;
 	  line-height: 18pt;
   }
   
@@ -179,26 +177,26 @@ input {
   
   #services p {
 	  color: #fff;
-	  font-family: "Roboto Condensed", "Roboto", "Open Sans", "Futura", "Lato", "Arial";
+	  font-family: "Roboto Condensed", Roboto, "Open Sans", Futura, Lato, Arial;
   }
   
   #services h1 {
 	  color: #fff;
-	  font-family: "Roboto Condensed", "Roboto", "Open Sans", "Futura", "Lato", "Arial";
+	  font-family: "Roboto Condensed", Roboto, "Open Sans", Futura, Lato, Arial;
 	  font-weight: bold;
 	  margin: 10px 0px 30px;
   }
   
   #services h2, h3 {
 	  color: #FFC254;
-	  font-family: "Roboto Condensed", "Roboto", "Open Sans", "Futura", "Lato", Arial;
+	  font-family: "Roboto Condensed", Roboto, "Open Sans", Futura, Lato, Arial;
 	  font-weight: bold;
 	  margin: 10px 0px 10px;
   }
   
   #services h4 {
 	  color: #FFC254;
-	  font-family: "Roboto Mono", "Roboto Condensed" "Open Sans", "Futura", "Lato", Arial;
+	  font-family: "Roboto Mono", "Roboto Condensed", Roboto "Open Sans", Futura, Lato, Arial;
 	  margin: 10px 0px 10px;
   }
   
