@@ -24,11 +24,12 @@ input {
   }
   
   body {
-	  background: url(images/backwall.jpeg) repeat-y;
+	  background: url(images/backwall.png) repeat-y;
 	  background-size: cover;
 	  background-position-y: top 50px;
 	  background-attachment: fixed;
 	  height: 100%;
+	  background-color: #321348;
   }
   
   
