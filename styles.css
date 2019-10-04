@@ -110,23 +110,20 @@ input {
 	  height: 71px;
 	}
   
-  a:link {
+  ul a:link {
 	  text-decoration: none;
 	  color: #333;
 	}
 	
-	/*a:visited {
-	  background-color: ;
-	  color: #333;
-	}*/
-	
 	ul a:hover {
-	  background-color: #321348;
-	  color: #fff;
+		transition: 0s;
+		background-color: #321348;
+		color: #fff;
+		font-weight: bold;
 	}
 	
 	ul a:active {
-	  background-color: #333333;
+	  background-color: #333;
 	} 
   
   .wrapper {
@@ -197,7 +194,7 @@ input {
   .footer {
 	  z-index: 5;
 	  color: #fff;
-	  padding: 15px 0px 20px;
+	  padding: 15px 0px 7%;
 	  text-align: center;
   }
   
@@ -241,7 +238,7 @@ input {
 		  transition: 1s;
 		  filter: grayscale(45%);
 		  }
-  
+
 	  .gallery img:hover {
 		  transform: scale(1.05);
 		  filter: grayscale(0);
@@ -256,27 +253,40 @@ input {
 		  z-index: 50;
 		  padding:10px 0px;
 		  text-align: center;
-		  background-color: #321348b7;
+		  background-color: #3213487e;
 		  -webkit-transition: .5s;
 		  transition: .5s;
 		  }
 		  
 		.text {
-			padding:10% 15px;
+			padding:10% 10%;
 			color: #fff;
 			width: 100%;
 			height: 100%;
 			position: absolute;
 			font-family: Roboto, "Open Sans", Futura, Lato, Arial, sans-serif;
-			-webkit-transition: .5s;
-			transition: .5s;
+			-webkit-transition: 1s;
+			transition: 1s;
 			overflow: hidden;
 		}
   
 	  .desc:hover {
 		  height: 70%;
 		  overflow: hidden;
-		  background-color: #321348cb;
+		  background-color: #321348d7;
+	  }
+
+	  .desc:hover .text {
+			padding:3% 10%;
+			color: #fff;
+	  }
+
+	  .text a {
+		  color: #fff;
+	  }
+
+	  .desc a:hover {
+		  color: #FFC254;
 	  }
   
 	  .responsive {
@@ -285,11 +295,11 @@ input {
 		  width: 33.33%;
 		  }
 
-		#iso {
+		.iso {
 			display: none;
 		}
 
-		input:checked + #iso {
+		input:checked + .iso {
 			z-index: 400;
 			position: fixed;
 			background-color: #321348c4;
@@ -300,7 +310,7 @@ input {
 			display: initial;
 		}
 
-		input:checked + #iso + .responsive .gallery img {
+		input:checked + .iso + .responsive .gallery img {
 			transform: translate(-50%, -50%);
 			z-index: 500;
 			position: fixed;
@@ -308,7 +318,7 @@ input {
 			left: 50%;
 			width: auto;
 			height: auto;
-			max-width: 90%;
+			max-width: 95%;
 			min-width: 30%;
 			max-height: 90%;
 			object-fit: contain;
@@ -318,7 +328,7 @@ input {
 			filter: none;
 			-webkit-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
   			-moz-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
-  			box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+			  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
 		}		
   
 	  @media only screen and (max-width: 900px) {
@@ -384,11 +394,6 @@ input {
 			  overflow: hidden;
 
 				  }
-  
-		  .wordmark:hover {
-			  background-color: #321348;		
-			  }
-			  
 		  }
   
 	  @media only screen and (max-width: 500px) {
