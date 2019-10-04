@@ -285,8 +285,22 @@ input {
 		  width: 33.33%;
 		  }
 
+		#iso {
+			display: none;
+		}
 
-		input:checked + .responsive .gallery img {
+		input:checked + #iso {
+			z-index: 400;
+			position: fixed;
+			background-color: #321348c4;
+			height: 100%;
+			width: 100%;
+			top: 0px;
+			left: 0px;
+			display: initial;
+		}
+
+		input:checked + #iso + .responsive .gallery img {
 			transform: translate(-50%, -50%);
 			z-index: 500;
 			position: fixed;
@@ -305,7 +319,7 @@ input {
 			-webkit-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
   			-moz-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
   			box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
-		}
+		}		
   
 	  @media only screen and (max-width: 900px) {
 		  .responsive {
@@ -365,7 +379,7 @@ input {
 			  }
   
 		  .wordmark {
-			  display: inline-block;
+			  display: block;
 			  float: left;
 			  overflow: hidden;
 
