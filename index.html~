@@ -3,21 +3,21 @@
 <html lang="en">
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-
+	
 	<meta name="autor" content="Jonathan D">
-
+	
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+	
 	<meta name="description" content="Nuxttux Creative Studio. 2D & 3D animated series (cartoons), commercials, music videos & more. All ideas and stories are developed internally.">
-
+	
 	<meta name="keywords" content="illustration, nuxttux, nuxttuxent, jonathan doré, designer, animation, freelancer, animation studio, open source,">
-
+	
 	<meta name="robot" content="index,follow"/>
-
+	
 	<link href="styles.css" rel="stylesheet" type="text/css">
-
+	
 	<link href="menue.css" rel="stylesheet" type="text/css">
-
+  
 	<title>Nuxttux Creative Studio</title>
 
 </head>
@@ -27,7 +27,7 @@
 <main>
 
 <div class="wrapper">
-
+		
 <!-- DIV One -->
 	<div id="videoreel">
 		<img id="cover" src="./images/cover.jpeg" style="width: 100%" alt="Welcome to Nuxttux Creative Studio">
@@ -61,7 +61,7 @@
 	<div id="aboutdiv">
 		<h1 style="font-size: 28pt">ABOUT</h1>
 		<p class="about">Nuxttux is a Creative Studio with love for story telling, creating engaging characters and open source.
-We love the kind of projects where we can explore and design cool stories.
+We love the kind of projects where we can explore and design cool stories. 
 We have the in house talent and capacity to develop concepts, write stories, direct and produce our own 2D & 3D animated series, commercials and most recently animated short films.</p>
 	</div>
 
@@ -95,7 +95,7 @@ We have the in house talent and capacity to develop concepts, write stories, dir
 			</div>
 		</div>
 	</div>
-
+	
 <input type="checkbox" id="m3">
 <div class="iso"></div>
 	<div class="responsive">
@@ -147,7 +147,7 @@ We have the in house talent and capacity to develop concepts, write stories, dir
 			</label>
 			<div class="desc">
 				<div class="text">"Black Friday", don't be sheep just because it's cheap.
-				</div>
+				</div>	
 			</div>
 		</div>
 	</div>
@@ -209,22 +209,22 @@ We have the in house talent and capacity to develop concepts, write stories, dir
 		<p>
 		All the way from pre-production through post-production,<br>we are able to see your idea to its final form.
 		</p>
-
+		
 		<!--<h3>ANIMATICS</h3>
 		<p>
 		See your idea in clean storyboard form fully timed out to audio, minimizing the guess work!
 		</p>-->
-
+		
 		<h3>CHARACTER DESIGN</h3>
 		<p>
 		Our experienced design team can bring life to your characters.
 		</p>
-
+		
 		<h3>ANIMATION</h3>
 		<p>
 		Already have an idea and designs, but still need animation?<br>We can adapt to any style.
 		</p>
-
+		
 		<h3>COMPOSITING</h3>
 		<p>
 		We can add effects, lighting or live action in order to make your project stand out.
@@ -237,7 +237,7 @@ We have the in house talent and capacity to develop concepts, write stories, dir
 </div>
 
 </main>
-
+	
 <footer>
 		<!-- FOOTER -->
 	<div class="footer" style="background-color: #111111">
@@ -252,8 +252,8 @@ We have the in house talent and capacity to develop concepts, write stories, dir
 		<div class="foot">
 		&#169; Nuxttux 2019. All rights reserved. All images copyright.
 		</div>
-
-		<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a>
+			
+		<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a> 
 	</div>
 
 </footer>

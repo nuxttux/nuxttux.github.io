@@ -6,6 +6,7 @@
 	text-decoration: none;
 	list-style-type: none;
 	font-family: Roboto, "Roboto Condensed", "Open Sans", Futura, Lato, Arial, sans-serif;
+  
   }
 
 input {
@@ -16,11 +17,11 @@ input {
 #cover {
 	display: none;
 }
-
+  
   html {
 	  height: 100%;
   }
-
+  
   body {
 	  background: url(images/backwall.png) repeat-y;
 	  background-size: cover;
@@ -29,23 +30,23 @@ input {
 	  height: 100%;
 	  background-color: #321348;
   }
-
-
+  
+  
   h1 {
 	  padding-top: 30px;
 	  font-family: "Roboto Condensed", Roboto, Lato, Arial, sans-serif;
   }
-
+  
   p {
 	display: block;
 	margin: 20px auto 50px;
   }
-
+  
   #videoreel {
 	  padding: 0px;
 	  margin: 0px 0px -3px;
   }
-
+  
   .videom {
 	  display: block;
 	  top: 0px;
@@ -55,7 +56,7 @@ input {
 	  height: 100%;
 	  object-fit: cover;
   }
-
+  
   #sticky  {
 	  z-index: 200;
 	  height: 100%;
@@ -65,17 +66,17 @@ input {
 	  position: -webkit-sticky;
 	  background-color: rgb(255, 194, 84);
   }
-
+  
   .wordmark img {
 	  width: 24mm;
 	  height: auto;
 	  margin: 15px 25px 10px;
   }
-
+  
   .wordmark {
 	  background-color: #321348;
   }
-
+  
   .wordmark {
 	  float: left;
   }
@@ -95,11 +96,11 @@ input {
 	  overflow: auto;
 	  background-color: rgb(255, 194, 84);
 	}
-
+  
   li {
 	  float: right;
 	}
-
+  
   li  a {
 	  display: inline-block;
 	  color: #111111;
@@ -108,23 +109,23 @@ input {
 	  font-weight: bold;
 	  height: 71px;
 	}
-
+  
   ul a:link {
 	  text-decoration: none;
 	  color: #333;
 	}
-
+	
 	ul a:hover {
 		transition: 0s;
 		background-color: #321348;
 		color: #fff;
 		font-weight: bold;
 	}
-
+	
 	ul a:active {
 	  background-color: #333;
-	}
-
+	} 
+  
   .wrapper {
 	  display: grid;
 	  padding: 0px;
@@ -132,12 +133,12 @@ input {
 	  width: 100%;
 	  background: #fff;
   }
-
-  .wrapper div {
+  
+  .wrapper div { 
 	  text-align: center;
-
+	  
   }
-
+  
   .about {
 	  text-align: justify;
 	  font-size: 12pt;
@@ -145,15 +146,15 @@ input {
 	  font-family: "Roboto Condensed", Roboto, "Open Sans", Futura, Lato, Arial;
 	  line-height: 18pt;
   }
-
+  
   .about h1 {
 	  font-size: 25pt;
   }
-
+  
   #aboutdiv {
 	  padding: 60px 0px 5px;
   }
-
+  
   #services {
 	  text-align: center;
 	  width: 100%;
@@ -162,41 +163,41 @@ input {
 	  min-height: 250px;
 	  text-align: center;
   }
-
+  
   #services p {
 	  color: #fff;
 	  font-family: "Roboto Condensed", Roboto, "Open Sans", Futura, Lato, Arial, sans-serif;
 	  padding: 0 10%;
   }
-
+  
   #services h1 {
 	  color: #fff;
 	  font-family: "Roboto Condensed", Roboto, "Open Sans", Futura, Lato, Arial, sans-serif;
 	  font-weight: bold;
 	  margin: 10px 0px 30px;
   }
-
+  
   #services h2, h3 {
 	  color: #FFC254;
 	  font-family: "Roboto Condensed", Roboto, "Open Sans", Futura, Lato, Arial;
 	  font-weight: bold;
 	  margin: 10px 0px 10px;
   }
-
+  
   #services h4 {
 	  color: #FFC254;
 	  font-family: "Roboto Mono", "Roboto Condensed", "Open Sans", Futura, Lato, Arial, sans-serif;
 	  margin: 10px 0px 10px;
 	  padding: 0 10%;
   }
-
+  
   .footer {
 	  z-index: 5;
 	  color: #fff;
 	  padding: 15px 0px 7%;
 	  text-align: center;
   }
-
+  
   .foot {
 	  color: #a9a297;
 	  padding: 45px;
@@ -218,7 +219,7 @@ input {
 }
 
   /*GALLERY RULES*/
-
+  
 	  .gallery {
 		  text-align: center;
 		  position: relative;
@@ -226,11 +227,11 @@ input {
 		  height: 200px;
 		  max-height: 500px;
 	  }
-
+  
 	  #galdiv {
 		  padding: 0px 2%;
 	  }
-
+  
 	  .gallery img {
 		  width: 100%;
 		  object-fit: cover;
@@ -244,10 +245,10 @@ input {
 		  transform: scale(1.05);
 		  filter: grayscale(0);
 		  }
-
+  
 	  .desc {
 		  overflow: hidden;
-		  height: 12%;
+		  height: 13%;
 		  bottom: 0px;
 		  width: 100%;
 		  position: absolute;
@@ -258,7 +259,7 @@ input {
 		  -webkit-transition: .5s;
 		  transition: .5s;
 		  }
-
+		  
 		.text {
 			padding:10% 10%;
 			color: #fff;
@@ -270,7 +271,7 @@ input {
 			transition: 1s;
 			overflow: hidden;
 		}
-
+  
 	  .desc:hover {
 		  height: 70%;
 		  overflow: hidden;
@@ -289,7 +290,7 @@ input {
 	  .desc a:hover {
 		  color: #FFC254;
 	  }
-
+  
 	  .responsive {
 		  padding: 0px 10px 50px;
 		  float: left;
@@ -330,28 +331,28 @@ input {
 			-webkit-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
   			-moz-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
 			  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
-		}
-
+		}		
+  
 	  @media only screen and (max-width: 900px) {
 		  .responsive {
 			  width: 50%;
 			  }
-
+				  
 		  .about {
 			  width: 450px;
 			  }
-
+  
 		  #aboutdiv {
 			  padding: 35px 0px 5px;
 			  }
-
+  
 		  #sticky  {
 			  text-align: center;
 			  z-index: 200;
 			  top: -1px;
 			  position: sticky;
 			  }
-
+	  
 		  ul {
 			  width: 100%;
 			  z-index: 100;
@@ -359,14 +360,14 @@ input {
 			  margin: 0px;
 			  padding: 0px;
 				}
-
+			  
 		  li, li a {
 			  width: 100%;
 			  float: none;
 			  display: inline-block;
-
+  
 				}
-
+			  
 		  li  a {
 			  color: #111111;
 			  text-align: center;
@@ -374,7 +375,7 @@ input {
 			  font-weight: bold;
 			  height: auto;
 			  }
-
+  
 		  ul li {
 			  display: none;
 			  }
@@ -382,13 +383,13 @@ input {
 			input:checked + #sticky #list li {
 				display: inline-block;
 			}
-
+  
 		  .wordmark img {
 			  width: 20mm;
 			  height: auto;
 			  margin: 10px 15px;
 			  }
-
+  
 		  .wordmark {
 			  display: block;
 			  float: left;
@@ -396,7 +397,7 @@ input {
 
 				  }
 		  }
-
+  
 	  @media only screen and (max-width: 500px) {
 		  .responsive {
 			  width: 100%;
@@ -405,16 +406,16 @@ input {
 		  background-size: contain;
 		  background-position-y: top 60px;
 		  }
-
+		  
 		  .about {
 			  width: 280px;
 			  text-align: center;
 		  }
-
+  
 		  #galdiv {
 			  padding:0px;
 		  }
-
+  
 		  .videom {
 			  display: none;
 		  }
@@ -422,9 +423,9 @@ input {
 		  #cover {
 			  display: block;
 		  }
-
+  
 		  .wordmark {
 			  width: 100%;
 			  }
-
+  
 	   }
