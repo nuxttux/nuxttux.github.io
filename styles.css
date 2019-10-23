@@ -72,8 +72,13 @@ input {
 	  margin: 15px 25px 10px;
   }
 
+	#wrdmark {
+		background-color: #321348;
+	}
+
   .wordmark {
 	  background-color: #321348;
+		height: 71px;
   }
 
   .wordmark {
@@ -231,7 +236,7 @@ input {
 		  padding: 0px 2%;
 	  }
 
-	  .gallery img {
+	  .gallery img, .gallery gif {
 		  width: 100%;
 		  object-fit: cover;
 		  -webkit-transition: 1s;
@@ -240,7 +245,7 @@ input {
 		  max-height: 500px;
 		  }
 
-	  .gallery img:hover {
+	  .gallery img:hover, .gallery gif:hover  {
 		  transform: scale(1.05);
 		  filter: grayscale(0);
 		  }
@@ -311,7 +316,7 @@ input {
 			display: initial;
 		}
 
-		input:checked + .iso + .responsive .gallery img {
+		input:checked + .iso + .responsive .gallery img, .gallery gif {
 			transform: translate(-50%, -50%);
 			z-index: 500;
 			position: fixed;
@@ -321,7 +326,7 @@ input {
 			height: auto;
 			max-width: 95%;
 			min-width: 30%;
-			max-height: 90%;
+			max-height: 95%;
 			object-fit: contain;
 			overflow: hidden;
 			-webkit-transition: 0s;
@@ -330,6 +335,37 @@ input {
 			-webkit-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
   			-moz-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
 			  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+		}
+
+		@media only screen and (min-width: 1440px) {
+			.gallery img, .gallery gif {
+				width: 100%;
+				object-fit: cover;
+				-webkit-transition: 1s;
+				transition: 1s;
+				filter: grayscale(45%);
+				height: 720px;
+				}
+
+				.gallery {
+				  text-align: center;
+				  position: relative;
+				  overflow: hidden;
+				  height: 720px;
+			  }
+
+				.desc {
+					padding:15px 0px;
+					}
+
+					.desc:hover .text {
+						padding:15% 10%;
+						color: #fff;
+				  }
+
+				#cover {
+					display: none;
+				}
 		}
 
 	  @media only screen and (max-width: 900px) {
