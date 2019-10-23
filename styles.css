@@ -363,6 +363,12 @@ input {
 						color: #fff;
 				  }
 
+				.about {
+					width: 990px;
+					font-size: 15pt;
+					line-height: 20pt;
+				}
+
 				#cover {
 					display: none;
 				}
