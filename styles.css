@@ -270,20 +270,22 @@ input {
 			width: 100%;
 			height: 100%;
 			position: absolute;
-			font-family: Roboto, "Open Sans", Futura, Lato, Arial, sans-serif;
+			font-family: "Roboto Condensed", Roboto, "Open Sans", Futura, Lato, Arial, sans-serif;
+			font-weight: 600;
+			font-size: 14pt;
 			-webkit-transition: 1s;
 			transition: 1s;
 			overflow: hidden;
 		}
 
 	  .desc:hover {
-		  height: 70%;
+		  height: 95%;
 		  overflow: hidden;
 		  background-color: #321348d7;
 	  }
 
 	  .desc:hover .text {
-			padding:3% 10%;
+			padding:5% 10%;
 			color: #fff;
 	  }
 
