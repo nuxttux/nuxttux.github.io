@@ -286,6 +286,10 @@ iframe {
 		margin: 0 0 185px;
 	}
 
+	.video_reel {
+		padding: 0px;
+	}
+
 	#video iframe {
 		padding:0;
 	}
