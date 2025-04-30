@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+      <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+      <meta name="autor" content="Jonathan Doré">
+
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <meta name="cache-control" content="max-age=4" />
+      <meta name="cache-control" content="cache" />
+      <meta name="Pragma" content="cache">
+
+      <meta name="description" content="Freelance Illustrator & Animator with over 5 years of experience. Sharing stories and illustrating ideas.">
+
+    	<meta name="keywords" content="illustration, Jonathan Doré, natoutete, designer, graphics, motion graphics, animation, freelancer, animator, illustrator, open source, freelancer, creative thinking, character,">
+
+      <meta property="og:description" content="Freelance Illustrator & Animator - Sharing stories and illustrating ideas.">
+
+      <meta property="og:image" content="./gallery/image/natouete_card.png"/>
+
+    	<link href="./css/style_general.css" rel="stylesheet" type="text/css">
+
+      <style>
+
+          .IMG-1 {
+             width: 100%;
+             height: auto;
+             padding:15px 40px;
+          }
+
+        .row1 {
+          width: 100%;
+          padding: 15px 40px;
+          display: grid;
+          grid-template-columns: repeat(1, 2fr 2fr)
+        }
+        .psiVideo, video {
+          width: 100%;
+        }
+        video {
+          padding: 20px 40px;
+        }
+
+        @media only screen and (max-width: 600px) {
+        	video, .row1, .IMG-1  {
+            padding: 17px 25px;
+            }
+          }
+      </style>
+
+      <title>Natoutete Animates</title>
+  </head>
+<body id="mainBody">
+
+  <iframe id="headerFrame" src="header.html"  style="border:none; width:100%;">
+  </iframe>
+
+  <main>
+    <div class="psi_grid">
+      <div class="">
+        <img src="./gallery/psi/psi_thumbnail.jpeg" alt="PSI_MASCOT_IMAGE" width="100%" height="auto" style="padding:15px 40px;">
+
+      <div class="row1">
+        <img src="./gallery/psi/thumb1.jpeg" alt="PSI_MASCOT_IMAGE" width="100%" height="auto">
+        <img src="./gallery/psi/thumb2.jpeg" alt="PSI_MASCOT_IMAGE" width="100%" height="auto">
+      </div>
+
+      <div class="psiVideo">
+        <video id="psiVid" preload="auto" controls>
+          <source src="./gallery/psi/video/psych2go_demo.mp4" type="video/mp4">
+        </video>
+      </div>
+
+        <img class="IMG-1" src="./gallery/psi/video/psi_storyboard.gif" alt=" storyboard gif" style="border:dashed 3px #000">
+
+        <img class="IMG-1" src="./gallery/psi/psi_mascot.jpeg" alt="PSI_THUMBNAIL" >
+        <img class="IMG-1" src="./gallery/psi/psi_scene1.jpeg" alt="PSI_THUMBNAIL">
+      </div>
+    </div>
+
+    <iframe id="footerFrame" src="footer.html"  style="border:none; width:100%;">
+    </iframe>
+
+</main>
+</body>
+</html>
